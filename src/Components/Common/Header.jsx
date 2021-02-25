@@ -50,7 +50,7 @@ const Header = (props) => {
                 <nav>
                     <ul>
                         { props.header.map((item, index) => <NavList key={index}>
-                                <NavLink href="#" title={item.label}>{item.label}</NavLink>
+                                <NavLink href={item.link} title={item.label}>{item.label}</NavLink>
                             </NavList> 
                         )} 
                         <NavList>
