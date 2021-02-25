@@ -2,7 +2,6 @@ import React from 'react';
 import { connect } from "react-redux";
 import { compose } from "recompose";
 import { withRouter } from "react-router-dom";
-import styled from 'styled-components/macro';
 import Banner from './Banner';
 // import RecruitTeam from './RecruitTeam';
 // import Benefit from './Benefit';

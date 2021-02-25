@@ -2,7 +2,6 @@ import React from 'react';
 import { connect } from "react-redux";
 import { compose } from "recompose";
 import { withRouter } from "react-router-dom";
-import styled from 'styled-components/macro';
 import logo__3x from 'assets/images/logo__3x.png';
 import logo__2x from 'assets/images/logo__2x.png';
 import logo__1x from 'assets/images/logo__3x.png';
