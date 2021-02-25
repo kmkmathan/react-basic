@@ -452,7 +452,7 @@ strong{font-family: var(--uxg-bold-font);}
 	width: var(--content-width);
 	margin: 0 auto;
 	display: flex;
-	background: url(../../assets/images/circle__left-top.svg) left top no-repeat, url(../../assets/images/circle__right-bottom.svg) right bottom no-repeat transparent;
+	background: url(../images/circle__left-top.svg) left top no-repeat, url(../images/circle__right-bottom.svg) right bottom no-repeat transparent;
 	background-color: var(--cost-bg-clr);
 	border-radius: 0 100px 0 100px;
 	position: relative;
@@ -513,7 +513,7 @@ strong{font-family: var(--uxg-bold-font);}
 	letter-spacing: 1px;
 	color: var(--white-color);
 	-webkit-appearance: none;
-	background: url(../../assets/images/down__arrow.png) no-repeat right center transparent;
+	background: url(../images/down__arrow.png) no-repeat right center transparent;
 	border: none;
 	border-bottom: solid 1px var(--white-color);
 	border-radius: 0;
@@ -781,22 +781,22 @@ strong{font-family: var(--uxg-bold-font);}
 	height: 20px;
 }
 .uxgfooter--callicon{
-	background: url(../../assets/images/call__icon.svg) no-repeat left center transparent;
+	background: url(../images/call__icon.svg) no-repeat left center transparent;
 }
 .uxgfooter--mailicon{
-	background: url(../../assets/images/mail__icon.svg) no-repeat left center transparent;
+	background: url(../images/mail__icon.svg) no-repeat left center transparent;
 }
 .uxgfooter--lkinicon{
-	background: url(../../assets/images/linkedin__icon.svg) no-repeat left center transparent;
+	background: url(../images/linkedin__icon.svg) no-repeat left center transparent;
 }
 .uxgfooter--twicon{
-	background: url(../../assets/images/twitter__icon.svg) no-repeat left center transparent;
+	background: url(../images/twitter__icon.svg) no-repeat left center transparent;
 }
 .uxgfooter--fbicon{
-	background: url(../../assets/images/fb__icon.svg) no-repeat left center transparent;
+	background: url(../images/fb__icon.svg) no-repeat left center transparent;
 }
 .uxgfooter--instaicon{
-	background: url(../../assets/images/insta__icon.svg) no-repeat left center transparent;
+	background: url(../images/insta__icon.svg) no-repeat left center transparent;
 }
 .uxgfooter--secondfooter{
 	margin-top: 100px;
@@ -860,7 +860,7 @@ strong{font-family: var(--uxg-bold-font);}
 	width: 100%;
 }
 .dropdown--contact{
-	background: url(../../assets/images/down__arrow.png) no-repeat 95% center transparent;
+	background: url(../images/down__arrow.png) no-repeat 95% center transparent;
 	background-color: var(--white-color-opc1);
 	mix-blend-mode: normal;
 	border: 1px solid var(--lite-white-color-opc1);
@@ -1032,7 +1032,7 @@ strong{font-family: var(--uxg-bold-font);}
 	font-size: 14px;
 	line-height: 17px;
 	color: var(--desc-text-color);
-	background: url(../../assets/images/tick__icon.svg) left center no-repeat transparent;
+	background: url(../images/tick__icon.svg) left center no-repeat transparent;
 	margin-bottom: 30px;
 	padding-left: 35px;
 	font-family: var(--uxg-scndry);
@@ -1044,7 +1044,7 @@ strong{font-family: var(--uxg-bold-font);}
 	margin-top: 50px;
 	float: left;
 	width: 100%;
-	background: url(../../assets/images/right__arrow.svg) right center no-repeat transparent;
+	background: url(../images/right__arrow.svg) right center no-repeat transparent;
 	font-family: var(--uxg-semibold-font);
 }
 .uxgplan__blocklist:hover{
@@ -1057,7 +1057,7 @@ strong{font-family: var(--uxg-bold-font);}
 	color: var(--white-color)
 }
 .uxgplan__blocklist:hover .uxgplan--link{
-	background: url(../../assets/images/right__arrow__white.svg) right center no-repeat transparent;
+	background: url(../images/right__arrow__white.svg) right center no-repeat transparent;
 }
 .uxgplan__blocklist:hover .btn{
 	background: var(--white-color);
@@ -1226,7 +1226,7 @@ strong{font-family: var(--uxg-bold-font);}
 .uxgsearch__inner{
 	width: var(--content-width);
 	margin: 0 auto;
-	background: url(../../assets/images/circle__left-top.svg) left top no-repeat, url(../../assets/images/circle__right-bottom.svg) right bottom no-repeat transparent;
+	background: url(../images/circle__left-top.svg) left top no-repeat, url(../images/circle__right-bottom.svg) right bottom no-repeat transparent;
 	background-color: var(--blue1);
 	border-radius: 100px 100px 0 100px;
 	position: relative;
@@ -1469,11 +1469,11 @@ strong{font-family: var(--uxg-bold-font);}
 	text-indent: -99999em;
 }
 .uxgblogs--prevarrow, .uxgoperations--prevarrow{
-	background: url(../../assets/images/previous__arrow.svg) no-repeat transparent;
+	background: url(../images/previous__arrow.svg) no-repeat transparent;
 	margin-left: 0;
 }
 .uxgblogs--nextarrow, .uxgoperations--nextarrow{
-	background: url(../../assets/images/next__arrow.svg) no-repeat transparent;
+	background: url(../images/next__arrow.svg) no-repeat transparent;
 }
 .uxgquests{
 	background: var(--white-color);
@@ -1517,7 +1517,7 @@ strong{font-family: var(--uxg-bold-font);}
 	left: 0;
 	display: block;
 	top: 40px;
-	background: url(../../assets/images/expand__icon.svg) no-repeat transparent;
+	background: url(../images/expand__icon.svg) no-repeat transparent;
 }
 .uxgquests__answ{
 	font-size: 16px;
@@ -1527,7 +1527,7 @@ strong{font-family: var(--uxg-bold-font);}
 	font-family: var(--uxg-scndry);
 }
 .uxgquests--collapseicon{
-	background: url(../../assets/images/collapse__icon.svg) no-repeat transparent;
+	background: url(../images/collapse__icon.svg) no-repeat transparent;
 }
 .uxgquests__image{
 	position: absolute;
@@ -1729,7 +1729,7 @@ strong{font-family: var(--uxg-bold-font);}
 	color: var(--white-color);
 	margin: 15px 0 0;
 	padding-left: 25px;
-	background: url(../../assets/images/tick__icon__2.svg) no-repeat left center transparent;
+	background: url(../images/tick__icon__2.svg) no-repeat left center transparent;
 }
 .uxgmulexpns__techleft{
 	max-width: 450px;
@@ -1858,7 +1858,7 @@ strong{font-family: var(--uxg-bold-font);}
 	letter-spacing: 0.025em;
 	color: var(--desc-text-color);
 	padding-left: 25px;
-    background: url(../../assets/images/tick__icon__3.svg) no-repeat left 7px transparent;
+    background: url(../images/tick__icon__3.svg) no-repeat left 7px transparent;
 	margin-bottom: 15px;
 }
 .pos-tp--0{

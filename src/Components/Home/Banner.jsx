@@ -2,12 +2,7 @@ import React from 'react';
 import { connect } from "react-redux";
 import { compose } from "recompose";
 import { withRouter } from "react-router-dom";
-import styled from 'styled-components/macro';
-import image from '../assets/images/recruit__bannerimg.svg';
-
-export const HomeWrapper = styled.div`
-  color: ${(props) => props.color};
-`;
+import image from 'assets/images/recruit__bannerimg.svg';
 
 const connectedProps = (state) => ({
     isProgress:state.register.isProgress,
@@ -20,11 +15,10 @@ const connectionActions = {
 
 var connector = connect(connectedProps, connectionActions);
 
-const Home = (props) => {
+const Banner = (props) => {
 
   return (
-    <HomeWrapper color={props.color}>
-        <section id="uxg-content">
+       
             <div className="uxgbanner bg-grdnt--white">
                 <div className="uxgbanner__inner">
                     <div className="uxgbanner__left">
@@ -41,13 +35,11 @@ const Home = (props) => {
                     <img className="uxgbanner__img pos-tp--0" src={image} alt="UXGURUS" />
                 </div>
             </div>
-        </section>
-    </HomeWrapper>
   );
 };
 
 export default connector(compose(
     withRouter,
-)(Home));
+)(Banner));
 
 
